@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Belegaufgabe </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ITBelegStylev2.css">
+        <link rel="stylesheet" href="ITBelegHomeStyle.css">
+        <link rel="stylesheet" href="questions.css">
+
+    </head>
+    <body>
+        <header> 
+            <!-- <img id="header_background" src="bookshelf_panorama.jpg" alt="background isn't loading"> -->
+        </header>
+        
+        <main>
+            <nav> 
+                <ul>
+                    <li><a id="nav_home" href="#home">Home  </a></li>
+                    <li><a id="nav_about_us" href="about_us">About Us </a> </li>
+                </ul>
+            </nav>
+
+
+
+            <article> 
+                <ul>
+                    <li> <a id="nav_math" href="ITBelegHomeMath.html"> Mathematik </a></li>
+                    <li> <a id="nav_IT" href="ITBelegHomeIT.html"> IT </a></li>
+                    <li> <a id="nav_general" href="ITBelegHomeGeneral.html"> Allgemein </a></li>  
+                </ul>
+
+                <h1> Allgemein</h1>
+
+                <div class="quiz_container">
+                    <a id="button" class="btn" onClick="startGeneral()"> Start </a>
+                </div>
+
+                <h3 class="heading hidden"> Lernfortschritt: </h3>
+
+                <div id="outter_progressbar" class="progressbar hidden">
+                    <div id="inner_progressbar" class="progressbar hidden"> </div>
+                </div>
+                <!-- <div id="lernfortschritt">
+                    <div class="lernfortschritt_balken">
+                        <div id="richtig_balken"></div>
+                    </div>
+                    <div class="lernfortschritt_balken">
+                        <div id="falsch_balken"></div>
+                    </div>
+                 </div> -->
+
+                 <div class="quiz_container">
+                    <h2 id="questions"></h2>
+                    <div id="1" class="choice-container">
+                        <p class="choice-prefix hidden"> A </p>
+                        <p class="choice-text hidden"> Choice 1 </p>
+                    </div>
+                    <div id="2" class="choice-container">
+                        <p class="choice-prefix hidden"> B </p>
+                        <p class="choice-text hidden"> Choice 2 </p>
+                    </div>
+                    <div id="3" class="choice-container">
+                        <p class="choice-prefix hidden"> C </p>
+                        <p class="choice-text hidden"> Choice 3 </p>
+                    </div>
+                    <div id="4" class="choice-container hidden">
+                        <p class="choice-prefix hidden"> D </p>
+                        <p class="choice-text hidden"> Choice 4 </p>
+                    </div>
+                 </div>
+            </article>
+
+            <aside> Seitenleiste </aside>
+        </main>
+
+        <footer> Das hier ist der Footer </footer>
+    <script src="index.js"> </script>
+    </body>
+</html>
