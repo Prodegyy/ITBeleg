@@ -152,7 +152,7 @@ aside {
 }
 
 #inner_progressbar {
-    width: 80px;
+    width: 0px;
     height: 1.5rem;
     background-color: green;
     border-radius: 1rem;
